@@ -1,4 +1,4 @@
-module rnd.rndobject.property.resize;
+module rndobject.property.resize;
 
 mixin template RNDResize(){
 	/+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

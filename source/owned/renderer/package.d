@@ -1,5 +1,5 @@
-module rnd.owned.renderer;
+module owned.renderer;
 
-package import rnd.owned.renderer.renderer;
+package import owned.renderer.renderer;
 
-public import rnd.owned_package;
+public import owned;

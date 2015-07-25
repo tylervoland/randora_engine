@@ -1,4 +1,4 @@
-module rnd.rndobject.property.event;
+module rndobject.property.event;
 
 mixin template RNDEvent(){
 	/+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

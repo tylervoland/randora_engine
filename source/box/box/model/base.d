@@ -1,6 +1,6 @@
-module rnd.box.box.model.base;
+module box.box.model.base;
 
-import rnd.box.box.model;
+import box.box.model;
 class RNDBoxModelBase(Master) : RNDOwned!(Master){
 	public RNDColor!(typeof(this))	color	= null;
 	public SDL_Rect						rect;

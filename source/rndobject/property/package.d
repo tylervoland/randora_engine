@@ -1,15 +1,15 @@
-module rnd.rndobject.property;
+module rndobject.property;
 
-package import rnd_object;
+package import rndobject;
 
-package import rnd.rndobject.property.clean;
-package import rnd.rndobject.property.draw;
-package import rnd.rndobject.property.event;
-package import rnd.rndobject.property.init;
-package import rnd.rndobject.property.load;
-package import rnd.rndobject.property.log;
-package import rnd.rndobject.property.loop;
-package import rnd.rndobject.property.print;
-package import rnd.rndobject.property.resize;
-package import rnd.rndobject.property.sort;
-package import rnd.rndobject.property.update;
+package import rndobject.property.clean;
+package import rndobject.property.draw;
+package import rndobject.property.event;
+package import rndobject.property.init;
+package import rndobject.property.load;
+package import rndobject.property.log;
+package import rndobject.property.loop;
+package import rndobject.property.print;
+package import rndobject.property.resize;
+package import rndobject.property.sort;
+package import rndobject.property.update;

@@ -1,6 +1,6 @@
-module rnd.owned.events;
+module owned.events;
 
-package import rnd.owned.events.events;
+package import owned.events.events;
 
-public import rnd.owned_package;
-public import rnd.owned.keyboard_event;
+public import owned;
+public import owned.keyboard_event;

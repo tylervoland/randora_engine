@@ -1,5 +1,5 @@
-module rnd.resource.texture;
+module resource.texture;
 
-package import rnd.resource;
+package import resource;
 
-package import rnd.resource.texture.texture;
+package import resource.texture.texture;

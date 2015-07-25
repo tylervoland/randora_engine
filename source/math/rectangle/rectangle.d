@@ -1,6 +1,6 @@
-module rnd.math.rectangle.rectangle;
+module math.rectangle.rectangle;
 
-import rnd.math.rectangle;
+import math.rectangle;
 class RNDRectangle(Master) : RNDOwned!(Master){
 	this(Master master, int x0 = 0, int y0 = 0, int x1 = 0, int y1 = 0){
 		super(master);

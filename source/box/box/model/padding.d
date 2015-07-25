@@ -1,6 +1,6 @@
-module rnd.box.box.model.padding;
+module box.box.model.padding;
 
-import rnd.box.box.model;
+import box.box.model;
 class RNDBoxModelPadding(Master) : RNDBoxModelBase!(Master){
 	public RNDBoxModelContents!(typeof(this)) contents = null;
 	

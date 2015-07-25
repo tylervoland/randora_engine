@@ -1,13 +1,13 @@
-module rnd.container.context_menu.context_menu;
+module container.context_menu.context_menu;
 
-import rnd.container.context_menu;
+import container.context_menu;
 class RNDContextMenu(Master, ObjectType) : RNDContainer!(Master, ObjectType){
 	this(Master master){
 		super(master);
 	}
 	
 	@property{
-		import rnd.container.menu_item;
+		import container.menu_item;
 		private RNDMenuItem!(Master, ObjectType) _active_item = null;
 		public RNDMenuItem!(Master, ObjectType) active_item(RNDMenuItem!(Master, ObjectType) menu_item){
 			return this._active_item;
@@ -30,7 +30,7 @@ class RNDContextMenu(Master, ObjectType) : RNDContainer!(Master, ObjectType){
 	}
 	
 	@property{
-		import rnd.container.menu_item;
+		import container.menu_item;
 		private RNDMenuItem!(Master, ObjectType)[] _menu_items = null;
 		public ref RNDMenuItem!(Master, ObjectType)[] menu_items(){ return this._menu_items; }
 	}

@@ -1,6 +1,6 @@
-module rnd.owned.events.events;
+module owned.events.events;
 
-import rnd.owned.events;
+import owned.events;
 class RNDEvents(Master) : RNDOwned!(Master){
 	this(Master master){
 		super(master);
@@ -17,7 +17,7 @@ class RNDEvents(Master) : RNDOwned!(Master){
 	}
 	
 	@property{
-		//import rnd.owned.keyboard_event;
+		//import owned.keyboard_event;
 		private RNDKeyboardEvent!(typeof(this)) _key_down = null;
 		public ref RNDKeyboardEvent!(typeof(this)) key_down(){ return this._key_down; }
 	}

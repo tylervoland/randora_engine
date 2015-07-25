@@ -1,5 +1,5 @@
-module rnd.owned.audio_mixer;
+module owned.audio_mixer;
 
-package import rnd.owned.audio_mixer.audio_mixer;
+package import owned.audio_mixer.audio_mixer;
 
-public import rnd.owned_package;
+public import owned;

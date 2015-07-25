@@ -1,6 +1,6 @@
-module rnd.box.image.model.contents;
+module box.image.model.contents;
 
-import rnd.box.image.model;
+import box.image.model;
 class RNDImageModelContents(Master) : RNDBoxModelContents!(Master){
 	RNDTexture!(typeof(this)) image = null;
 	

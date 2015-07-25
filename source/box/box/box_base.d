@@ -1,6 +1,6 @@
-module rnd.box.box.box_base;
+module box.box.box_base;
 
-import rnd.box.box;
+import box.box;
 class RNDBoxBase(Master) : RNDOwned!(Master){
 	public RNDAlignment!(typeof(this))	alignment	= null;
 	public RNDPoint!(typeof(this))		dimension	= null;

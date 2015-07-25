@@ -1,7 +1,7 @@
-module rnd.resource.nine_patch;
+module resource.nine_patch;
 
-package import rnd.resource;
+package import resource;
 
-package import rnd.owned_package;
+package import owned;
 
-package import rnd.resource.nine_patch.nine_patch;
+package import resource.nine_patch.nine_patch;

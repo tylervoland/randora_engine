@@ -1,6 +1,6 @@
-module rnd.resource.font.font;
+module resource.font.font;
 
-import rnd.resource;
+import resource;
 class RNDFont(Master) : RNDBaseTexture!(Master){
 	this(Master master, string text){
 		super(master, "/usr/share/fonts/truetype/ubuntu-font-family/", "UbuntuMono-R.ttf");

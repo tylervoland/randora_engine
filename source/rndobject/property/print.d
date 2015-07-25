@@ -1,4 +1,4 @@
-module rnd.rndobject.property.print;
+module rndobject.property.print;
 
 mixin template RNDPrint(){
 	/+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

@@ -1,4 +1,4 @@
-module rnd.rndobject.property.load;
+module rndobject.property.load;
 
 mixin template RNDLoad(){
 	/+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

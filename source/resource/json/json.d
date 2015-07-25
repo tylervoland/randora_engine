@@ -1,1 +1,1 @@
-module rnd.resource.json.json;
+module resource.json.json;

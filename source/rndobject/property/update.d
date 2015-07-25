@@ -1,4 +1,4 @@
-module rnd.rndobject.property.update;
+module rndobject.property.update;
 
 mixin template RNDUpdate(){
 	/+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

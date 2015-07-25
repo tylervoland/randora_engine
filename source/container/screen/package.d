@@ -1,5 +1,5 @@
-module rnd.container.screen;
+module container.screen;
 
-package import rnd.container;
+package import container;
 
-package import rnd.container.screen.screen;
+package import container.screen.screen;

@@ -1,7 +1,7 @@
-module rnd.container.base_app;
+module container.base_app;
 
-package import rnd.container;
+package import container;
 
-package import rnd.container.base_app.base_app;
+package import container.base_app.base_app;
 
-public import rnd.owned.sdl;
+public import owned.sdl;

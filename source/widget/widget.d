@@ -1,6 +1,6 @@
-module rnd.widget.widget;
+module widget.widget;
 
-import rnd.widget;
+import widget;
 class RNDWidget(Master) : RNDBox!(Master){
 	public RNDEvents!(typeof(this))	events	= null;
 	public string					type	= null;

@@ -1,6 +1,6 @@
-module rnd.box.property.stretch;
+module box.property.stretch;
 
-import rnd.box.property;
+import box.property;
 class RNDStretch(Master) : RNDOwned!(Master){
 	@property{
 		enum STRETCH{

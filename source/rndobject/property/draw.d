@@ -1,4 +1,4 @@
-module rnd.rndobject.property.draw;
+module rndobject.property.draw;
 
 mixin template RNDDraw(){
 	/+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

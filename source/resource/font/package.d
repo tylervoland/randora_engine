@@ -1,5 +1,5 @@
-module rnd.resource.font;
+module resource.font;
 
-package import rnd.resource;
+package import resource;
 
-package import rnd.resource.font.font;
+package import resource.font.font;

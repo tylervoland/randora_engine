@@ -1,5 +1,5 @@
-module rnd.container.layer;
+module container.layer;
 
-package import rnd.container;
+package import container;
 
-package import rnd.container.layer.layer;
+package import container.layer.layer;

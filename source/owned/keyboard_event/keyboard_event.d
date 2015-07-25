@@ -1,6 +1,6 @@
-module rnd.owned.keyboard_event.keyboard_event;
+module owned.keyboard_event.keyboard_event;
 
-import rnd.owned.keyboard_event;
+import owned.keyboard_event;
 class RNDKeyboardEvent(Master) : RNDOwned!(Master){
 	this(Master master){
 		super(master);

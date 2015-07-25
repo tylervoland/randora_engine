@@ -1,6 +1,6 @@
-module rnd.container.button.button;
+module container.button.button;
 
-import rnd.container.button;
+import container.button;
 class RNDButton(Master, ObjectType) : RNDContainer!(Master, ObjectType){
 	this(Master master){
 		this.type = "button";

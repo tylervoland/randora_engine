@@ -1,4 +1,4 @@
-module rnd.rndobject.property.sort;
+module rndobject.property.sort;
 
 mixin template RNDSort(){
 	/+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

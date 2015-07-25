@@ -1,9 +1,9 @@
-module rnd;
+module source;
 
-package import rnd.box;
-package import rnd.container;
-package import rnd.math;
-package import rnd_object;
-package import rnd.owned_package;
-package import rnd.resource;
-package import rnd.widget;
+package import box;
+package import container;
+package import math;
+package import object;
+package import owned;
+package import resource;
+package import widget;

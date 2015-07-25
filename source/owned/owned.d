@@ -1,6 +1,6 @@
-module rnd.owned.owned;
+module owned.owned;
 
-import rnd.owned_package;
+import owned;
 class RNDOwned(Master) : RNDObject{
 	this(Master master){
 		super();
@@ -16,7 +16,7 @@ class RNDOwned(Master) : RNDObject{
 	
 	@property{
 		import game.app;
-		import rnd.container.base_app;
+		import container.base_app;
 		public ref App root(){
 			return this.master.root;
 		}

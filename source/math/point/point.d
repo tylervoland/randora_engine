@@ -1,6 +1,6 @@
-module rnd.math.point.point;
+module math.point.point;
 
-import rnd.math.point;
+import math.point;
 class RNDPoint(Master) : RNDOwned!(Master){
 	this(Master master, int ix = 0, int iy = 0, int iz = 0){
 		super(master);

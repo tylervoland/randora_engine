@@ -1,3 +1,3 @@
-module rnd.resource.resource;
+module resource.resource;
 
-public import rnd.resource.resource.resource.resource;
+public import resource.resource.resource;

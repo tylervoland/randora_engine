@@ -1,5 +1,5 @@
-module rnd.resource.cell;
+module resource.cell;
 
-package import rnd.resource;
+package import resource;
 
-package import rnd.resource.cell.cell;
+package import resource.cell.cell;

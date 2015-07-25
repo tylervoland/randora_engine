@@ -1,6 +1,6 @@
-module rnd.container.window.window;
+module container.window.window;
 
-import rnd.container.window;
+import container.window;
 class RNDWindow(Master) : RNDContainer!(Master, RNDWindow){
 	public RNDRenderer!(typeof(this))	renderer	= null;
 	public SDL_Window* 					sdl_window	= null;

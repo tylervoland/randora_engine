@@ -1,9 +1,6 @@
-/+
-module asdfghh;
+module rndobject;
 
-public import rnd;
+public import rndobject.rndobject;
 
-public import rnd_object;
+public import rndobject.property;
 
-public import rnd.rndobject.property;
-+/

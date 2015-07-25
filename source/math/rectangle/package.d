@@ -1,5 +1,5 @@
-module rnd.math.rectangle;
+module math.rectangle;
 
-package import rnd.math;
+package import math;
 
-package import rnd.math.rectangle.rectangle;
+package import math.rectangle.rectangle;

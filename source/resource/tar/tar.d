@@ -1,1 +1,1 @@
-module rnd.resource.tar.tar;
+module resource.tar.tar;

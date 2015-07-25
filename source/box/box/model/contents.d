@@ -1,6 +1,6 @@
-module rnd.box.box.model.contents;
+module box.box.model.contents;
 
-import rnd.box.box.model;
+import box.box.model;
 class RNDBoxModelContents(Master) : RNDBoxModelBase!(Master){
 	this(Master master){
 		super(master);

@@ -1,1 +1,1 @@
-module rnd.resource.animation.animation;
+module resource.animation.animation;

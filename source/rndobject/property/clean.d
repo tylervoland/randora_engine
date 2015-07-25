@@ -1,4 +1,4 @@
-module rnd.rndobject.property.clean;
+module rndobject.property.clean;
 
 mixin template RNDClean(){
 	/+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

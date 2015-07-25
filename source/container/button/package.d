@@ -1,5 +1,5 @@
-module rnd.container.button;
+module container.button;
 
-package import rnd.container;
+package import container;
 
-package import rnd.container.button.button;
+package import container.button.button;

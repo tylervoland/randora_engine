@@ -1,15 +1,12 @@
-module rnd.box.box;
+module box.box;
 
-package import rnd.box;
+package import box;
 
-package import rnd.box.box.box_base;
+package import box.box.box_base;
 
-package import rnd.box.box.box;
-package import rnd.box.box.model;
+package import box.box.box;
+package import box.box.model;
 
-package import rnd.owned_package;
+package import owned;
 
-package import rnd.box.property;
-//package import rnd.box.property.alignment;
-//package import rnd.box.property.spacing;
-//package import rnd.box.property.stretch;
+package import box.property;

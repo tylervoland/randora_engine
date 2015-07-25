@@ -1,6 +1,6 @@
-module rnd.box.image.image;
+module box.image.image;
 
-import rnd.box.image;
+import box.image;
 class RNDImage(Master) : RNDBoxBase!(Master){
 	public RNDImageModelMargin!(typeof(this)) margin = null;
 	

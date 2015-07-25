@@ -1,1 +1,1 @@
-module rnd.resource.video.video;
+module resource.video.video;

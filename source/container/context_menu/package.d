@@ -1,5 +1,5 @@
-module rnd.container.context_menu;
+module container.context_menu;
 
-package import rnd.container;
+package import container;
 
-package import rnd.container.context_menu.context_menu;
+package import container.context_menu.context_menu;

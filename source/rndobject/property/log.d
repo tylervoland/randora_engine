@@ -1,4 +1,4 @@
-module rnd.rndobject.property.log;
+module rndobject.property.log;
 
 mixin template RNDLog(){
 	/+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

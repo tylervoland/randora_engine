@@ -1,6 +1,6 @@
-module rnd.container.container;
+module container.container;
 
-import rnd.container;
+import container;
 class RNDContainer(Master, ObjectType) : RNDWidget!(Master){
 	public RNDWidget!(ObjectType)[] slaves = null;
 	

@@ -1,6 +1,6 @@
-module rnd.owned.true_type_font.true_type_font;
+module owned.true_type_font.true_type_font;
 
-import rnd.owned.true_type_font;
+import owned.true_type_font;
 class RNDTrueTypeFont(Master) : RNDOwned!(Master){
 	import derelict.sdl2.ttf;
 	

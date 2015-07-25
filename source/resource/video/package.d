@@ -1,5 +1,5 @@
-module rnd.resource.video;
+module resource.video;
 
-package import rnd.resource;
+package import resource;
 
-package import rnd.resource.video.video;
+package import resource.video.video;

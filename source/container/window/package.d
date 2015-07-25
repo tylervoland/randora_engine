@@ -1,5 +1,5 @@
-module rnd.container.window;
+module container.window;
 
-package import rnd.container;
+package import container;
 
-package import rnd.container.window.window;
+package import container.window.window;

@@ -1,6 +1,6 @@
-module rnd.box.box.box;
+module box.box.box;
 
-import rnd.box.box;
+import box.box;
 class RNDBox(Master) : RNDBoxBase!(Master){
 	public RNDBoxModelMargin!(typeof(this)) margin = null;
 	

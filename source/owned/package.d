@@ -1,16 +1,16 @@
-module rnd.owned_package;
+module owned;
 
-package import rnd_object;
+package import rndobject;
 
-package import rnd.owned.owned;
+package import owned.owned;
 
-package import rnd.owned.audio_mixer;
-package import rnd.owned.events;
-package import rnd.owned.keyboard_event;
-package import rnd.owned.open_audio;
-package import rnd.owned.renderer;
-package import rnd.owned.sdl;
-package import rnd.owned.sdlimage;
-package import rnd.owned.true_type_font;
+package import owned.audio_mixer;
+package import owned.events;
+package import owned.keyboard_event;
+package import owned.open_audio;
+package import owned.renderer;
+package import owned.sdl;
+package import owned.sdl_image;
+package import owned.true_type_font;
 
 public import derelict.sdl2.sdl;

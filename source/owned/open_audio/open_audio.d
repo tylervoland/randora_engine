@@ -1,6 +1,6 @@
-module rnd.owned.open_audio.open_audio;
+module owned.open_audio.open_audio;
 
-import rnd.owned.open_audio;
+import owned.open_audio;
 class RNDOpenAudio(Master) : RNDOwned!(Master){
 	import derelict.sdl2.mixer;
 	

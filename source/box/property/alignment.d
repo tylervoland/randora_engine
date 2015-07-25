@@ -1,6 +1,6 @@
-module rnd.box.property.alignment;
+module box.property.alignment;
 
-import rnd.box.property;
+import box.property;
 class RNDAlignment(Master) : RNDOwned!(Master){
 	@property{
 		enum ALIGNMENT{

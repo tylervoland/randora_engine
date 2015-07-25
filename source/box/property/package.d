@@ -1,9 +1,9 @@
-module rnd.box.property;
+module box.property;
 
-package import rnd.box;
+package import box;
 
-package import rnd.box.property.alignment;
-package import rnd.box.property.spacing;
-package import rnd.box.property.stretch;
+package import box.property.alignment;
+package import box.property.spacing;
+package import box.property.stretch;
 
-package import rnd.owned_package;
+package import owned;

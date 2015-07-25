@@ -1,5 +1,5 @@
-module rnd.resource.music;
+module resource.music;
 
-package import rnd.resource;
+package import resource;
 
-package import rnd.resource.music.music;
+package import resource.music.music;

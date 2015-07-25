@@ -1,5 +1,5 @@
-module rnd.math.point;
+module math.point;
 
-package import rnd.math;
+package import math;
 
-package import rnd.math.point.point;
+package import math.point.point;

@@ -1,8 +1,8 @@
-module rnd.resource.base_texture;
+module resource.base_texture;
 
-package import rnd.resource;
+package import resource;
 
-package import rnd.resource.base_texture.base_texture;
+package import resource.base_texture.base_texture;
 
-public import rnd.math.color;
+public import math.color;
 public import derelict.sdl2.sdl;

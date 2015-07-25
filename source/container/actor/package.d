@@ -1,5 +1,5 @@
-module rnd.container.actor;
+module container.actor;
 
-package import rnd.container;
+package import container;
 
-package import rnd.container.actor.actor;
+package import container.actor.actor;

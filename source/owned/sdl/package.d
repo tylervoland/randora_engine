@@ -1,5 +1,5 @@
-module rnd.owned.sdl;
+module owned.sdl;
 
-package import rnd.owned.sdl.sdl;
+package import owned.sdl.sdl;
 
-public import rnd.owned_package;
+public import owned;

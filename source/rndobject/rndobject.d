@@ -1,20 +1,20 @@
-module rnd_object;
+module rndobject.rndobject;
 
 /+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
- + Authors: Joshua Mower
+ + Authors: Master Foo
  + Bugs: None
  + Date: 2015-06-11
  + Examples:
  + -----------------------------------------------------------------------------
  + void main(){
- + 	import rnd.rndobject;
+ + 	import rndobject;
  + 	RNDObject obj = new RNDObject();
  + }
  + -----------------------------------------------------------------------------
  + Examples:
  + -----------------------------------------------------------------------------
  + void asdf(){
- + 	import rnd.rndobject;
+ + 	import rndobject;
  + 	RNDObject obj = new RNDObject();
  + }
  + -----------------------------------------------------------------------------
@@ -37,8 +37,7 @@ module rnd_object;
  + 				/{ }/Parens/
  + 				/<,>/Arrows/
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++/
-public import rnd;
-public import rnd.rndobject.property;
+import rndobject;
 
 class RNDObject{
 	mixin RNDClean;

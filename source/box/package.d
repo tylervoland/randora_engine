@@ -1,10 +1,10 @@
-module rnd.box;
+module box;
 
-package import rnd;
+package import source;
 
-package import rnd.box.box;
-package import rnd.box.image;
-package import rnd.box.property;
+package import box.box;
+package import box.image;
+package import box.property;
 
 
 

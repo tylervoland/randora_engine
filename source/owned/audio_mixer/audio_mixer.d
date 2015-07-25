@@ -1,6 +1,6 @@
-module rnd.owned.audio_mixer.audio_mixer;
+module owned.audio_mixer.audio_mixer;
 
-import rnd.owned.audio_mixer;
+import owned.audio_mixer;
 class RNDAudioMixer(Master) : RNDOwned!(Master){
 	import derelict.sdl2.mixer;
 	

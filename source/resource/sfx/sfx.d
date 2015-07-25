@@ -1,1 +1,1 @@
-module rnd.resource.sfx.sfx;
+module resource.sfx.sfx;

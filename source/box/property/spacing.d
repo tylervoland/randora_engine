@@ -1,6 +1,6 @@
-module rnd.box.property.spacing;
+module box.property.spacing;
 
-import rnd.box.property;
+import box.property;
 mixin template RNDSpacing(ObjectType){
 	@property{
 		private int _spacing = 0;

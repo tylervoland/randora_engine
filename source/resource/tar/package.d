@@ -1,5 +1,5 @@
-module rnd.resource.tar;
+module resource.tar;
 
-package import rnd.resource;
+package import resource;
 
-package import rnd.resource.tar.tar;
+package import resource.tar.tar;

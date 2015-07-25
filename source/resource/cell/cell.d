@@ -1,1 +1,1 @@
-module rnd.resource.cell.cell;
+module resource.cell.cell;

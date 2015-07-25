@@ -1,7 +1,7 @@
-module rnd.math;
+module math;
 
-package import rnd.math.color;
-package import rnd.math.point;
-package import rnd.math.rectangle;
+package import math.color;
+package import math.point;
+package import math.rectangle;
 
-public import rnd.owned_package;
+public import owned;

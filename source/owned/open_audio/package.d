@@ -1,5 +1,5 @@
-module rnd.owned.open_audio;
+module owned.open_audio;
 
-package import rnd.owned.open_audio.open_audio;
+package import owned.open_audio.open_audio;
 
-public import rnd.owned_package;
+public import owned;

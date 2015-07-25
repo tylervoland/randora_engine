@@ -1,1 +1,1 @@
-module rnd.resource.mesh.mesh;
+module resource.mesh.mesh;

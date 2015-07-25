@@ -1,5 +1,5 @@
-module rnd.resource.animation;
+module resource.animation;
 
-package import rnd.resource;
+package import resource;
 
-package import rnd.resource.animation.animation;
+package import resource.animation.animation;

@@ -1,6 +1,6 @@
-module rnd.owned.renderer.renderer;
+module owned.renderer.renderer;
 
-import rnd.owned.renderer;
+import owned.renderer;
 class RNDRenderer(Master) : RNDOwned!(Master){
 	alias sdl_renderer this;
 	public SDL_Renderer* sdl_renderer = null;

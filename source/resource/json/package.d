@@ -1,5 +1,5 @@
-module rnd.resource.json;
+module resource.json;
 
-package import rnd.resource;
+package import resource;
 
-package import rnd.resource.json.json;
+package import resource.json.json;

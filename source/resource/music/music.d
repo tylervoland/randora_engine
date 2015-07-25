@@ -1,6 +1,6 @@
-module rnd.resource.music.music;
+module resource.music.music;
 
-import rnd.resource;
+import resource;
 class RNDMusic(Master) : RNDOwned!(Master){
 	mixin RNDResource resource;
 	

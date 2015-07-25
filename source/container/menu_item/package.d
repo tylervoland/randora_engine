@@ -1,5 +1,5 @@
-module rnd.container.menu_item;
+module container.menu_item;
 
-package import rnd.container;
+package import container;
 
-package import rnd.container.menu_item.menu_item;
+package import container.menu_item.menu_item;

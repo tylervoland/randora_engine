@@ -1,6 +1,6 @@
-module rnd.container.menu_item.menu_item;
+module container.menu_item.menu_item;
 
-import rnd.container.menu_item;
+import container.menu_item;
 class RNDMenuItem(Master, ObjectType) : RNDContainer!(Master, ObjectType){
 	this(Master master){
 		super(master);
@@ -13,7 +13,7 @@ class RNDMenuItem(Master, ObjectType) : RNDContainer!(Master, ObjectType){
 	}
 	/+
 	@property{
-		import rnd.resource.font;
+		import resource.font;
 		private RNDFont!(RNDMenuItem) _font = null;
 		public ref RNDFont!(RNDMenuItem) font(){ return this._font; }
 	}

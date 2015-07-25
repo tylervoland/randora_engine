@@ -1,6 +1,6 @@
-module rnd.math.color.color;
+module math.color.color;
 
-import rnd.math.color;
+import math.color;
 class RNDColor(Master) : RNDOwned!(Master){
 	this(Master master){
 		super(master);

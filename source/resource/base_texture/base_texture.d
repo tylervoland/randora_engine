@@ -1,6 +1,6 @@
-module rnd.resource.base_texture.base_texture;
+module resource.base_texture.base_texture;
 
-import rnd.resource.base_texture;
+import resource.base_texture;
 class RNDBaseTexture(Master) : RNDOwned!(Master){
 	mixin RNDResource;
 	

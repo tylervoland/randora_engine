@@ -1,6 +1,6 @@
-module rnd.container.screen.screen;
+module container.screen.screen;
 
-import rnd.container.screen;
+import container.screen;
 class RNDScreen(Master, ObjectType) : RNDContainer!(Master, ObjectType){
 	this(Master master){
 		super(master);

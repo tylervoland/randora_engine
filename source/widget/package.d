@@ -1,7 +1,7 @@
-module rnd.widget;
+module widget;
 
-package import rnd.box;
+package import box;
 
-package import rnd.widget.widget;
+package import widget.widget;
 
-package import rnd.owned.events;
+package import owned.events;

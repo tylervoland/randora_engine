@@ -1,6 +1,6 @@
-module rnd.container.base_app.base_app;
+module container.base_app.base_app;
 
-import rnd.container.base_app;
+import container.base_app;
 class BaseApp(Master, ObjectType) : RNDContainer!(Master, ObjectType){
 	this(Master master = null){
 		super(master);
@@ -21,7 +21,7 @@ class BaseApp(Master, ObjectType) : RNDContainer!(Master, ObjectType){
 	}
 	
 	@property{
-		//import rnd.owned.sdl;
+		//import owned.sdl;
 		private RNDSDL!(typeof(this)) _sdl = null;
 		public ref RNDSDL!(typeof(this)) sdl(){ return this._sdl; }
 	}

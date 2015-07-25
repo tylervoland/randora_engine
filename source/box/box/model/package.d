@@ -1,16 +1,13 @@
-module rnd.box.box.model;
+module box.box.model;
 
-package import rnd.box;
+package import box;
 
-package import rnd.box.box.model.base;
-package import rnd.box.box.model.margin;
-package import rnd.box.box.model.border;
-package import rnd.box.box.model.padding;
-package import rnd.box.box.model.contents;
+package import box.box.model.base;
+package import box.box.model.margin;
+package import box.box.model.border;
+package import box.box.model.padding;
+package import box.box.model.contents;
 
-//package import rnd.box.property;
-//package import rnd.owned;
-package import rnd.math.color;
-//package import rnd.math.point;
+package import math.color;
 
 package import derelict.sdl2.sdl;

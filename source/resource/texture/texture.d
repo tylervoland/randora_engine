@@ -1,6 +1,6 @@
-module rnd.resource.texture.texture;
+module resource.texture.texture;
 
-import rnd.resource;
+import resource;
 class RNDTexture(Master) : RNDBaseTexture!(Master){
 	this(Master master, string directory, string file){
 		super(master, directory, file);

@@ -1,6 +1,6 @@
-module rnd.resource.resource.resource.resource;
+module resource.resource.resource;
 
-import rnd.resource.resource;
+import resource.resource;
 mixin template RNDResource(){
 	void resource_init(string directory, string file){
 		this.directory = directory;

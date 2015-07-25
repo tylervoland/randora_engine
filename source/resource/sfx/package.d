@@ -1,5 +1,5 @@
-module rnd.resource.sfx;
+module resource.sfx;
 
-package import rnd.resource;
+package import resource;
 
-package import rnd.resource.sfx.sfx;
+package import resource.sfx.sfx;

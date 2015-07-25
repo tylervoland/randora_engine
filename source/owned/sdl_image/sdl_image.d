@@ -1,6 +1,6 @@
-module rnd.owned.sdlimage.sdlimage;
+module owned.sdl_image.sdl_image;
 
-import rnd.owned.sdlimage;
+import owned.sdl_image;
 class RNDSDLImage(Master) : RNDOwned!(Master){
 	import derelict.sdl2.image;
 	

@@ -1,5 +1,5 @@
-module rnd.resource.mesh;
+module resource.mesh;
 
-package import rnd.resource;
+package import resource;
 
-package import rnd.resource.mesh.mesh;
+package import resource.mesh.mesh;

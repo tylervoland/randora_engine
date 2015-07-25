@@ -1,4 +1,4 @@
-module rnd.rndobject.property.init;
+module rndobject.property.init;
 
 mixin template RNDInit(){
 	/+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

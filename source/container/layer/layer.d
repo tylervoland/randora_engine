@@ -1,13 +1,13 @@
-module rnd.container.layer.layer;
+module container.layer.layer;
 
-import rnd.container.layer;
+import container.layer;
 class RNDLayer(Master, ObjectType) : RNDContainer!(Master, ObjectType){
 	this(Master master){
 		super(master);
 	}
 	/+
 	@property{
-		import rnd.resource.texture;
+		import resource.texture;
 		private RNDTexture!(ObjectType)[] _backgrounds = null;
 		public ref RNDTexture!(ObjectType)[] backgrounds(){ return this._backgrounds; }
 	}

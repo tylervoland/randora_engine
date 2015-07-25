@@ -1,5 +1,5 @@
-module rnd.math.color;
+module math.color;
 
-package import rnd.math;
+package import math;
 
-package import rnd.math.color.color;
+package import math.color.color;

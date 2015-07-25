@@ -1,4 +1,4 @@
-module rnd.rndobject.property.loop;
+module rndobject.property.loop;
 
 mixin template RNDLoop(){
 	/+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
