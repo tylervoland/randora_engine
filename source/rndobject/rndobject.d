@@ -37,9 +37,7 @@ module rnd_object;
  + 				/{ }/Parens/
  + 				/<,>/Arrows/
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++/
-//import asdfghh;
 public import rnd;
-//public import rnd_object;
 public import rnd.rndobject.property;
 
 class RNDObject{

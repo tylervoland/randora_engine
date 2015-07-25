@@ -9,8 +9,9 @@ docs
 #Binaries
 *.o
 *.obj
+*.a
 bin
-.a
+lib
 
 #DUB files
 dub.selections.json
