@@ -1,12 +1,12 @@
 {
-	"name": "randoraengine",
+	"name": "Randora-Engine",
 	"description": "Randora Engine.",
 	"copyright": "Copyright © 2015, Master Foo",
 	"authors": ["Master Foo"],
 	
 	"targetPath": "lib",
 	"targetType": "library",
-	"targetName": "randoraengine",
+	"targetName": "Randora-Engine",
 	"version": "0.0.1",
 	
 	"homepage": "https://github.com/Cabal-Syndicate",
