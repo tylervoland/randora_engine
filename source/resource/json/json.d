@@ -1,1 +1,0 @@
-module resource.json.json;
