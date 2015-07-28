@@ -3,20 +3,22 @@
 	"description": "Randora Engine.",
 	"copyright": "Copyright © 2015, Master Foo",
 	"authors": ["Master Foo"],
+	"homepage": "https://github.com/Cabal-Syndicate",
+	"license": "Attribution-NonCommercial-ShareAlike 4.0 International",
 	
 	"targetPath": "lib",
 	"targetType": "library",
 	"targetName": "Randora-Engine",
 	"version": "0.0.1",
 	
-	"homepage": "https://github.com/Cabal-Syndicate",
-	"license": "Attribution-NonCommercial-ShareAlike 4.0 International",
 	"dependencies": {
 		"derelict-sdl2": "~>1.9.5",
 		"derelict-gl3": ">=1.0.9"
 	},
 	"sourcePaths": [
-		"source"
+		"public",
+		"source",
+		"views"
 	],
 	"libs":[
 		"SDL2",

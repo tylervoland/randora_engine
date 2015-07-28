@@ -1,1 +1,0 @@
-module resource.cell.cell;
