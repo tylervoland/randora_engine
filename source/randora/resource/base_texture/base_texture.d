@@ -1,6 +1,6 @@
-module randora.resource.base_texture.base_texture;
+module randora_engine.resource.base_texture.base_texture;
 
-import randora.resource.base_texture;
+import randora_engine.resource.base_texture;
 class RNDBaseTexture(Master) : RNDOwned!(Master){
 	mixin RNDResource;
 	

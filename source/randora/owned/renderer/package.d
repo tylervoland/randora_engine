@@ -1,5 +1,5 @@
-module randora.owned.renderer;
+module randora_engine.owned.renderer;
 
-package import randora.owned.renderer.renderer;
+package import randora_engine.owned.renderer.renderer;
 
-public import randora.owned;
+public import randora_engine.owned;

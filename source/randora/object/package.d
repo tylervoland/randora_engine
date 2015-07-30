@@ -1,6 +1,6 @@
-module randora.object;
+module randora_engine.object;
 
-public import randora.object.object;
+public import randora_engine.object.object;
 
-public import randora.object.property;
+public import randora_engine.object.property;
 

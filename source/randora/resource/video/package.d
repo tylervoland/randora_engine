@@ -1,5 +1,5 @@
-module randora.resource.video;
+module randora_engine.resource.video;
 
-package import randora.resource;
+package import randora_engine.resource;
 
-package import randora.resource.video.video;
+package import randora_engine.resource.video.video;

@@ -1,6 +1,6 @@
-module randora.box.box.box;
+module randora_engine.box.box.box;
 
-import randora.box.box;
+import randora_engine.box.box;
 class RNDBox(Master) : RNDBoxBase!(Master){
 	public RNDBoxModelMargin!(typeof(this)) margin = null;
 	

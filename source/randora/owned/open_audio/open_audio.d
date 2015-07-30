@@ -1,6 +1,6 @@
-module randora.owned.open_audio.open_audio;
+module randora_engine.owned.open_audio.open_audio;
 
-import randora.owned.open_audio;
+import randora_engine.owned.open_audio;
 class RNDOpenAudio(Master) : RNDOwned!(Master){
 	import derelict.sdl2.mixer;
 	

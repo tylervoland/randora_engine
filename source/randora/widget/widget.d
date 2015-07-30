@@ -1,6 +1,6 @@
-module randora.widget.widget;
+module randora_engine.widget.widget;
 
-import randora.widget;
+import randora_engine.widget;
 class RNDWidget(Master) : RNDBox!(Master){
 	public RNDEvents!(typeof(this))	events	= null;
 	public string					type	= null;

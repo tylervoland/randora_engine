@@ -1,5 +1,5 @@
-module randora.resource.font;
+module randora_engine.resource.font;
 
-package import randora.resource;
+package import randora_engine.resource;
 
-package import randora.resource.font.font;
+package import randora_engine.resource.font.font;

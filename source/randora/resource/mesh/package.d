@@ -1,5 +1,5 @@
-module randora.resource.mesh;
+module randora_engine.resource.mesh;
 
-package import randora.resource;
+package import randora_engine.resource;
 
-package import randora.resource.mesh.mesh;
+package import randora_engine.resource.mesh.mesh;

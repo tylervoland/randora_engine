@@ -1,6 +1,6 @@
-module randora.resource.font.font;
+module randora_engine.resource.font.font;
 
-import randora.resource;
+import randora_engine.resource;
 class RNDFont(Master) : RNDBaseTexture!(Master){
 	this(Master master, string text){
 		super(master, "/usr/share/fonts/truetype/ubuntu-font-family/", "UbuntuMono-R.ttf");

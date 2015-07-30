@@ -1,12 +1,12 @@
-module randora.box.box;
+module randora_engine.box.box;
 
-package import randora.box;
+package import randora_engine.box;
 
-package import randora.box.box.box_base;
+package import randora_engine.box.box.box_base;
 
-package import randora.box.box.box;
-package import randora.box.box.model;
+package import randora_engine.box.box.box;
+package import randora_engine.box.box.model;
 
-package import randora.owned;
+package import randora_engine.owned;
 
-package import randora.box.property;
+package import randora_engine.box.property;

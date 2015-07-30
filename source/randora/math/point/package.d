@@ -1,5 +1,5 @@
-module randora.math.point;
+module randora_engine.math.point;
 
-package import randora.math;
+package import randora_engine.math;
 
-package import randora.math.point.point;
+package import randora_engine.math.point.point;

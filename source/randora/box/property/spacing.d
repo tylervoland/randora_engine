@@ -1,6 +1,6 @@
-module randora.box.property.spacing;
+module randora_engine.box.property.spacing;
 
-import randora.box.property;
+import randora_engine.box.property;
 mixin template RNDSpacing(ObjectType){
 	@property{
 		private int _spacing = 0;

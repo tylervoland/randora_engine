@@ -1,4 +1,4 @@
-module randora.object.property.draw;
+module randora_engine.object.property.draw;
 
 mixin template RNDDraw(){
 	/+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

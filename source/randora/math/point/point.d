@@ -1,6 +1,6 @@
-module randora.math.point.point;
+module randora_engine.math.point.point;
 
-import randora.math.point;
+import randora_engine.math.point;
 class RNDPoint(Master) : RNDOwned!(Master){
 	this(Master master, int ix = 0, int iy = 0, int iz = 0){
 		super(master);

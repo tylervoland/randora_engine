@@ -1,1 +1,1 @@
-module randora.resource.json.json;
+module randora_engine.resource.json.json;

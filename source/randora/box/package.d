@@ -1,10 +1,10 @@
-module randora.box;
+module randora_engine.box;
 
 package import source;
 
-package import randora.box.box;
-package import randora.box.image;
-package import randora.box.property;
+package import randora_engine.box.box;
+package import randora_engine.box.image;
+package import randora_engine.box.property;
 
 
 

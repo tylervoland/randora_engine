@@ -1,6 +1,6 @@
-module randora.resource.music.music;
+module randora_engine.resource.music.music;
 
-import randora.resource;
+import randora_engine.resource;
 class RNDMusic(Master) : RNDOwned!(Master){
 	mixin RNDResource resource;
 	

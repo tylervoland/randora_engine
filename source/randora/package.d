@@ -1,9 +1,9 @@
-module randora;
+module randora_engine;
 
-package import randora.box;
-package import randora.container;
-package import randora.math;
-package import randora.object;
-package import randora.owned;
-package import randora.resource;
-package import randora.widget;
+package import randora_engine.box;
+package import randora_engine.container;
+package import randora_engine.math;
+package import randora_engine.object;
+package import randora_engine.owned;
+package import randora_engine.resource;
+package import randora_engine.widget;

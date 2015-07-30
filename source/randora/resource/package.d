@@ -1,19 +1,19 @@
-module randora.resource;
+module randora_engine.resource;
 
-package import randora.resource.animation;
-package import randora.resource.base_texture;
-package import randora.resource.cell;
-package import randora.resource.font;
-package import randora.resource.json;
-package import randora.resource.mesh;
-package import randora.resource.music;
-package import randora.resource.nine_patch;
-package import randora.resource.sfx;
-package import randora.resource.tar;
-package import randora.resource.texture;
-package import randora.resource.video;
+package import randora_engine.resource.animation;
+package import randora_engine.resource.base_texture;
+package import randora_engine.resource.cell;
+package import randora_engine.resource.font;
+package import randora_engine.resource.json;
+package import randora_engine.resource.mesh;
+package import randora_engine.resource.music;
+package import randora_engine.resource.nine_patch;
+package import randora_engine.resource.sfx;
+package import randora_engine.resource.tar;
+package import randora_engine.resource.texture;
+package import randora_engine.resource.video;
 
-package import randora.resource.resource;
+package import randora_engine.resource.resource;
 
-package import randora.owned;
-package import randora.widget;
+package import randora_engine.owned;
+package import randora_engine.widget;

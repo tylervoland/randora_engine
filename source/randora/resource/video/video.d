@@ -1,1 +1,1 @@
-module randora.resource.video.video;
+module randora_engine.resource.video.video;

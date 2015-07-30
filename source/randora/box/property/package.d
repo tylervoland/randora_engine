@@ -1,9 +1,9 @@
-module randora.box.property;
+module randora_engine.box.property;
 
-package import randora.box;
+package import randora_engine.box;
 
-package import randora.box.property.alignment;
-package import randora.box.property.spacing;
-package import randora.box.property.stretch;
+package import randora_engine.box.property.alignment;
+package import randora_engine.box.property.spacing;
+package import randora_engine.box.property.stretch;
 
-package import randora.owned;
+package import randora_engine.owned;

@@ -1,5 +1,5 @@
-module randora.resource.texture;
+module randora_engine.resource.texture;
 
-package import randora.resource;
+package import randora_engine.resource;
 
-package import randora.resource.texture.texture;
+package import randora_engine.resource.texture.texture;

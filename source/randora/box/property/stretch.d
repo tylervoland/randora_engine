@@ -1,6 +1,6 @@
-module randora.box.property.stretch;
+module randora_engine.box.property.stretch;
 
-import randora.box.property;
+import randora_engine.box.property;
 class RNDStretch(Master) : RNDOwned!(Master){
 	@property{
 		enum STRETCH{

@@ -1,7 +1,7 @@
-module randora.math;
+module randora_engine.math;
 
-package import randora.math.color;
-package import randora.math.point;
-package import randora.math.rectangle;
+package import randora_engine.math.color;
+package import randora_engine.math.point;
+package import randora_engine.math.rectangle;
 
-public import randora.owned;
+public import randora_engine.owned;

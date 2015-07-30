@@ -1,6 +1,6 @@
-module randora.owned.events.events;
+module randora_engine.owned.events.events;
 
-import randora.owned.events;
+import randora_engine.owned.events;
 class RNDEvents(Master) : RNDOwned!(Master){
 	this(Master master){
 		super(master);

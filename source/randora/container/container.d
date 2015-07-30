@@ -1,6 +1,6 @@
-module randora.container.container;
+module randora_engine.container.container;
 
-import randora.container;
+import randora_engine.container;
 class RNDContainer(Master, ObjectType) : RNDWidget!(Master){
 	public RNDWidget!(ObjectType)[] slaves = null;
 	

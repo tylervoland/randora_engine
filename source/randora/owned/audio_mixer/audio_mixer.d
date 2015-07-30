@@ -1,6 +1,6 @@
-module randora.owned.audio_mixer.audio_mixer;
+module randora_engine.owned.audio_mixer.audio_mixer;
 
-import randora.owned.audio_mixer;
+import randora_engine.owned.audio_mixer;
 class RNDAudioMixer(Master) : RNDOwned!(Master){
 	import derelict.sdl2.mixer;
 	

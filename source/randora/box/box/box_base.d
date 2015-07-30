@@ -1,6 +1,6 @@
-module randora.box.box.box_base;
+module randora_engine.box.box.box_base;
 
-import randora.box.box;
+import randora_engine.box.box;
 class RNDBoxBase(Master) : RNDOwned!(Master){
 	public RNDAlignment!(typeof(this))	alignment	= null;
 	public RNDPoint!(typeof(this))		dimension	= null;

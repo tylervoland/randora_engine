@@ -1,4 +1,4 @@
-module randora.object.property.clean;
+module randora_engine.object.property.clean;
 
 mixin template RNDClean(){
 	/+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

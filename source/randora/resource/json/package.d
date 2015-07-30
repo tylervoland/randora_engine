@@ -1,5 +1,5 @@
-module randora.resource.json;
+module randora_engine.resource.json;
 
-package import randora.resource;
+package import randora_engine.resource;
 
-package import randora.resource.json.json;
+package import randora_engine.resource.json.json;

@@ -1,5 +1,5 @@
-module randora.math.color;
+module randora_engine.math.color;
 
-package import randora.math;
+package import randora_engine.math;
 
-package import randora.math.color.color;
+package import randora_engine.math.color.color;

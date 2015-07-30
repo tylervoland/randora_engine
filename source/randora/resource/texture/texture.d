@@ -1,6 +1,6 @@
-module randora.resource.texture.texture;
+module randora_engine.resource.texture.texture;
 
-import randora.resource;
+import randora_engine.resource;
 class RNDTexture(Master) : RNDBaseTexture!(Master){
 	this(Master master, string directory, string file){
 		super(master, directory, file);

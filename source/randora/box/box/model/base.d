@@ -1,6 +1,6 @@
-module randora.box.box.model.base;
+module randora_engine.box.box.model.base;
 
-import randora.box.box.model;
+import randora_engine.box.box.model;
 class RNDBoxModelBase(Master) : RNDOwned!(Master){
 	public RNDColor!(typeof(this))	color	= null;
 	public SDL_Rect						rect;

@@ -1,1 +1,1 @@
-module randora.resource.sfx.sfx;
+module randora_engine.resource.sfx.sfx;

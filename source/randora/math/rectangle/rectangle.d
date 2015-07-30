@@ -1,6 +1,6 @@
-module randora.math.rectangle.rectangle;
+module randora_engine.math.rectangle.rectangle;
 
-import randora.math.rectangle;
+import randora_engine.math.rectangle;
 class RNDRectangle(Master) : RNDOwned!(Master){
 	this(Master master, int x0 = 0, int y0 = 0, int x1 = 0, int y1 = 0){
 		super(master);

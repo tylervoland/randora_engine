@@ -1,6 +1,6 @@
-module randora.box.image.image;
+module randora_engine.box.image.image;
 
-import randora.box.image;
+import randora_engine.box.image;
 class RNDImage(Master) : RNDBoxBase!(Master){
 	public RNDImageModelMargin!(typeof(this)) margin = null;
 	

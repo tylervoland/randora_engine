@@ -1,4 +1,4 @@
-module randora.object.property.load;
+module randora_engine.object.property.load;
 
 mixin template RNDLoad(){
 	/+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

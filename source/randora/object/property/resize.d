@@ -1,4 +1,4 @@
-module randora.object.property.resize;
+module randora_engine.object.property.resize;
 
 mixin template RNDResize(){
 	/+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

@@ -1,1 +1,1 @@
-module randora.resource.animation.animation;
+module randora_engine.resource.animation.animation;

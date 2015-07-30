@@ -1,6 +1,6 @@
-module randora.owned.sdl_image.sdl_image;
+module randora_engine.owned.sdl_image.sdl_image;
 
-import randora.owned.sdl_image;
+import randora_engine.owned.sdl_image;
 class RNDSDLImage(Master) : RNDOwned!(Master){
 	import derelict.sdl2.image;
 	

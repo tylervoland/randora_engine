@@ -1,6 +1,6 @@
-module randora.box.image.model.contents;
+module randora_engine.box.image.model.contents;
 
-import randora.box.image.model;
+import randora_engine.box.image.model;
 class RNDImageModelContents(Master) : RNDBoxModelContents!(Master){
 	RNDTexture!(typeof(this)) image = null;
 	

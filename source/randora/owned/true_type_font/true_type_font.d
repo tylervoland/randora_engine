@@ -1,6 +1,6 @@
-module randora.owned.true_type_font.true_type_font;
+module randora_engine.owned.true_type_font.true_type_font;
 
-import randora.owned.true_type_font;
+import randora_engine.owned.true_type_font;
 class RNDTrueTypeFont(Master) : RNDOwned!(Master){
 	import derelict.sdl2.ttf;
 	

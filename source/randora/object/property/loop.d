@@ -1,4 +1,4 @@
-module randora.object.property.loop;
+module randora_engine.object.property.loop;
 
 mixin template RNDLoop(){
 	/+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

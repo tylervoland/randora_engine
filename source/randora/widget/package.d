@@ -1,7 +1,7 @@
-module randora.widget;
+module randora_engine.widget;
 
-package import randora.box;
+package import randora_engine.box;
 
-package import randora.widget.widget;
+package import randora_engine.widget.widget;
 
-package import randora.owned.events;
+package import randora_engine.owned.events;

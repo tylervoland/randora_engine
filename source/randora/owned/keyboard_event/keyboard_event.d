@@ -1,6 +1,6 @@
-module randora.owned.keyboard_event.keyboard_event;
+module randora_engine.owned.keyboard_event.keyboard_event;
 
-import randora.owned.keyboard_event;
+import randora_engine.owned.keyboard_event;
 class RNDKeyboardEvent(Master) : RNDOwned!(Master){
 	this(Master master){
 		super(master);

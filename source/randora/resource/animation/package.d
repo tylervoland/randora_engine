@@ -1,5 +1,5 @@
-module randora.resource.animation;
+module randora_engine.resource.animation;
 
-package import randora.resource;
+package import randora_engine.resource;
 
-package import randora.resource.animation.animation;
+package import randora_engine.resource.animation.animation;

@@ -1,3 +1,3 @@
-module randora.resource.resource;
+module randora_engine.resource.resource;
 
-public import randora.resource.resource.resource;
+public import randora_engine.resource.resource.resource;

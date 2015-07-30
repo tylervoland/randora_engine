@@ -1,5 +1,5 @@
-module randora.resource.tar;
+module randora_engine.resource.tar;
 
-package import randora.resource;
+package import randora_engine.resource;
 
-package import randora.resource.tar.tar;
+package import randora_engine.resource.tar.tar;

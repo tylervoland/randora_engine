@@ -1,4 +1,4 @@
-module randora.object.property.event;
+module randora_engine.object.property.event;
 
 mixin template RNDEvent(){
 	/+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

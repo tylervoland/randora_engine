@@ -1,6 +1,6 @@
-module randora.box.property.alignment;
+module randora_engine.box.property.alignment;
 
-import randora.box.property;
+import randora_engine.box.property;
 class RNDAlignment(Master) : RNDOwned!(Master){
 	@property{
 		enum ALIGNMENT{

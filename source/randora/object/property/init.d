@@ -1,4 +1,4 @@
-module randora.object.property.init;
+module randora_engine.object.property.init;
 
 mixin template RNDInit(){
 	/+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

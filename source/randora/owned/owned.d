@@ -1,6 +1,6 @@
-module randora.owned.owned;
+module randora_engine.owned.owned;
 
-import randora.owned;
+import randora_engine.owned;
 class RNDOwned(Master) : RNDObject{
 	this(Master master){
 		super();

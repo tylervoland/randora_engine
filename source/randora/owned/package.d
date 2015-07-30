@@ -1,16 +1,16 @@
-module randora.owned;
+module randora_engine.owned;
 
-package import randora.object;
+package import randora_engine.object;
 
-package import randora.owned.owned;
+package import randora_engine.owned.owned;
 
-package import randora.owned.audio_mixer;
-package import randora.owned.events;
-package import randora.owned.keyboard_event;
-package import randora.owned.open_audio;
-package import randora.owned.renderer;
-package import randora.owned.sdl;
-package import randora.owned.sdl_image;
-package import randora.owned.true_type_font;
+package import randora_engine.owned.audio_mixer;
+package import randora_engine.owned.events;
+package import randora_engine.owned.keyboard_event;
+package import randora_engine.owned.open_audio;
+package import randora_engine.owned.renderer;
+package import randora_engine.owned.sdl;
+package import randora_engine.owned.sdl_image;
+package import randora_engine.owned.true_type_font;
 
 public import derelict.sdl2.sdl;

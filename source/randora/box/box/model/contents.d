@@ -1,6 +1,6 @@
-module randora.box.box.model.contents;
+module randora_engine.box.box.model.contents;
 
-import randora.box.box.model;
+import randora_engine.box.box.model;
 class RNDBoxModelContents(Master) : RNDBoxModelBase!(Master){
 	this(Master master){
 		super(master);

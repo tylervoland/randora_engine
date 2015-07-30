@@ -1,4 +1,4 @@
-module randora.object.object;
+module randora_engine.object.object;
 
 /+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
  + Authors: Master Foo
@@ -37,7 +37,7 @@ module randora.object.object;
  + 				/{ }/Parens/
  + 				/<,>/Arrows/
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++/
-import randora.object;
+import randora_engine.object;
 
 class RNDObject{
 	mixin RNDClean;
@@ -55,7 +55,7 @@ class RNDObject{
 	string type = "RNDObject";
 	string name = "object";
 	
-	RNDObject[] members = null;
+	RNDObject members[] = null;
 	
 	/+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 	 + this does this.

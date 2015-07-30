@@ -1,5 +1,5 @@
-module randora.owned.sdl;
+module randora_engine.owned.sdl;
 
-package import randora.owned.sdl.sdl;
+package import randora_engine.owned.sdl.sdl;
 
-package import randora.owned;
+package import randora_engine.owned;

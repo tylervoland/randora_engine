@@ -1,6 +1,6 @@
-module randora.box.image.model.border;
+module randora_engine.box.image.model.border;
 
-import randora.box.image.model;
+import randora_engine.box.image.model;
 class RNDImageModelBorder(Master) : RNDBoxModelBorder!(Master){
 	public RNDImageModelPadding!(typeof(this)) padding = null;
 	

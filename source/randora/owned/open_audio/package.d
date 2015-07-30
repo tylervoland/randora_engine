@@ -1,5 +1,5 @@
-module randora.owned.open_audio;
+module randora_engine.owned.open_audio;
 
-package import randora.owned.open_audio.open_audio;
+package import randora_engine.owned.open_audio.open_audio;
 
-public import randora.owned;
+public import randora_engine.owned;

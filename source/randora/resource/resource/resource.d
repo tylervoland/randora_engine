@@ -1,6 +1,6 @@
-module randora.resource.resource.resource;
+module randora_engine.resource.resource.resource;
 
-import randora.resource.resource;
+import randora_engine.resource.resource;
 mixin template RNDResource(){
 	void resource_init(string directory, string file){
 		this.directory = directory;

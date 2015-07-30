@@ -1,6 +1,6 @@
-module randora.owned.sdl.sdl;
+module randora_engine.owned.sdl.sdl;
 
-import randora.owned.sdl;
+import randora_engine.owned.sdl;
 class RNDSDL(Master) : RNDOwned!(Master){
 	import derelict.sdl2.sdl;
 	
