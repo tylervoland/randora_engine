@@ -55,7 +55,7 @@ class RNDObject{
 	string type = "RNDObject";
 	string name = "object";
 	
-	RNDObject members[] = null;
+	RNDObject[] members = null;
 	
 	/+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 	 + this does this.
