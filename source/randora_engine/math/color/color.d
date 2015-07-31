@@ -59,7 +59,7 @@ class RNDColor(Master) : RNDOwned!(Master){
 	override void on_draw(){
 		super.on_draw();
 		SDL_SetRenderDrawColor(
-			this.root.window.renderer,
+			this.app.window.renderer,
 			this.red,
 			this.green,
 			this.blue,

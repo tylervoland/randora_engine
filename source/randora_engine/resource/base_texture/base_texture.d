@@ -100,7 +100,7 @@ class RNDBaseTexture(Master) : RNDOwned!(Master){
 		assert(this.sdl_surface !is null);//IMG_GetError()
 		this.set_color_key();
 		this.sdl_texture = SDL_CreateTextureFromSurface(
-			this.root.window.renderer,
+			this.app.window.renderer,
 			this.sdl_surface
 		);
 		assert(this.sdl_texture !is null, "Failed to load texture image!");
@@ -124,7 +124,7 @@ class RNDBaseTexture(Master) : RNDOwned!(Master){
 		};
 		
 		SDL_RenderCopy(
-			this.root.window.renderer,
+			this.app.window.renderer,
 			this.sdl_texture,
 			null,
 			&tmp_render_quad

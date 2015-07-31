@@ -778,7 +778,7 @@ class RNDKeyboardEvent(Master) : RNDOwned!(Master){
 	@property{ void key_equals(){} }
 	@property{
 		void key_escape(){
-			this.root.quit = true;
+			this.app.quit = true;
 		}
 	}
 	@property{ void key_execute(){} }

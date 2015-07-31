@@ -25,7 +25,7 @@ class RNDBoxModelMargin(Master) : RNDBoxModelBase!(Master){
 		rect.w = this.dx;
 		rect.h = this.dy;
 		
-		SDL_RenderFillRect(this.root.window.renderer, &rect);
+		SDL_RenderFillRect(this.app.window.renderer, &rect);
 		
 		super.on_draw();
 	}

@@ -16,8 +16,8 @@ class RNDOwned(Master) : RNDObject{
 	
 	@property{
 		import game.app;
-		public ref App root(){
-			return this.master.root;
+		public ref App app(){
+			return this.master.app;
 		}
 	}
 	

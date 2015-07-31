@@ -1,7 +1,6 @@
 module randora_engine.engine_app.engine_app;
 
 import randora_engine.engine_app;
-
 class EngineApp(Master, ObjectType) : RNDContainer!(Master, ObjectType){
 	public bool						quit	= false;
 	public SDLSDL!(typeof(this))	sdl		= null;
@@ -11,11 +10,6 @@ class EngineApp(Master, ObjectType) : RNDContainer!(Master, ObjectType){
 		
 		this.type = "BaseApp";
 		this.name = "base_app";
-		
-		this.stretch.x = this.stretch.STRETCH.NONE;
-		this.stretch.y = this.stretch.STRETCH.NONE;
-		this.dimension.x = 640;
-		this.dimension.y = 480;
 		
 		this.sdl = new SDLSDL!(typeof(this))(this);
 		assert(this.sdl !is null);
@@ -36,9 +30,8 @@ class EngineApp(Master, ObjectType) : RNDContainer!(Master, ObjectType){
 		this.sdl.start();
 	}
 	
-	override void on_start(){
-		super.on_start();
-		
+	override void post_start(){
+		super.post_start();
 		this.init();
 		this.update();
 		this.load();

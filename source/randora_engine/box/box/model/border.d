@@ -40,56 +40,56 @@ class RNDBoxModelBorder(Master) : RNDBoxModelBase!(Master){
 			left.y = _py_p_s;
 			left.w = _s;
 			left.h = _dy_m_s2;
-			SDL_RenderFillRect(this.root.window.renderer, &left);
+			SDL_RenderFillRect(this.app.window.renderer, &left);
 			
 			SDL_Rect right;
 			right.x = _px_p_dx_m_s;
 			right.y = _py_p_s;
 			right.w = _s;
 			right.h = _dy_m_s2;
-			SDL_RenderFillRect(this.root.window.renderer, &right);
+			SDL_RenderFillRect(this.app.window.renderer, &right);
 			
 			SDL_Rect top;
 			top.x = _px_p_s;
 			top.y = _py;
 			top.w = _dx_m_s2;
 			top.h = _s;
-			SDL_RenderFillRect(this.root.window.renderer, &top);
+			SDL_RenderFillRect(this.app.window.renderer, &top);
 			
 			SDL_Rect bottom;
 			bottom.x = _px_p_s;
 			bottom.y = _py_p_dy_m_s;
 			bottom.w = _dx_m_s2;
 			bottom.h = _s;
-			SDL_RenderFillRect(this.root.window.renderer, &bottom);
+			SDL_RenderFillRect(this.app.window.renderer, &bottom);
 			
 			SDL_Rect top_left;
 			top_left.x = _px;
 			top_left.y = _py;
 			top_left.w = _s;
 			top_left.h = _s;
-			SDL_RenderFillRect(this.root.window.renderer, &top_left);
+			SDL_RenderFillRect(this.app.window.renderer, &top_left);
 			
 			SDL_Rect top_right;
 			top_right.x = _px_p_dx_m_s;
 			top_right.y = _py;
 			top_right.w = _s;
 			top_right.h = _s;
-			SDL_RenderFillRect(this.root.window.renderer, &top_right);
+			SDL_RenderFillRect(this.app.window.renderer, &top_right);
 			
 			SDL_Rect bottom_left;
 			bottom_left.x = _px;
 			bottom_left.y = _py_p_dy_m_s;
 			bottom_left.w = _s;
 			bottom_left.h = _s;
-			SDL_RenderFillRect(this.root.window.renderer, &bottom_left);
+			SDL_RenderFillRect(this.app.window.renderer, &bottom_left);
 			
 			SDL_Rect bottom_right;
 			bottom_right.x = _px_p_dx_m_s;
 			bottom_right.y = _py_p_dy_m_s;
 			bottom_right.w = _s;
 			bottom_right.h = _s;
-			SDL_RenderFillRect(this.root.window.renderer, &bottom_right);
+			SDL_RenderFillRect(this.app.window.renderer, &bottom_right);
 			
 			super.on_draw();
 		}
