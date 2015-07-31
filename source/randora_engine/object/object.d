@@ -50,6 +50,7 @@ class RNDObject{
 	mixin RNDPrint;
 	mixin RNDResize;
 	mixin RNDSort;
+	mixin RNDStart;
 	mixin RNDUpdate;
 	
 	string type = "RNDObject";

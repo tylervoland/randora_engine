@@ -1,7 +1,7 @@
-module randora_engine.owned.renderer.renderer;
+module randora_engine.sdl.renderer.renderer;
 
-import randora_engine.owned.renderer;
-class RNDRenderer(Master) : RNDOwned!(Master){
+import randora_engine.sdl.renderer;
+class SDLRenderer(Master) : RNDOwned!(Master){
 	alias sdl_renderer this;
 	public SDL_Renderer* sdl_renderer = null;
 	
@@ -14,17 +14,21 @@ class RNDRenderer(Master) : RNDOwned!(Master){
 		this.flags |= SDL_RENDERER_PRESENTVSYNC;
 	}
 	
-	override void on_init(){
-		super.on_init();
+	override void on_start(){
+		super.on_start();
 		
 		this.sdl_renderer = SDL_CreateRenderer(this.master, index, flags);
+		
 		assert(this.sdl_renderer !is null);//SDL_GetError()
+	}
+	
+	override void on_init(){
+		super.on_init();
 		
 		SDL_SetRenderDrawBlendMode(
 			this.sdl_renderer,
 			SDL_BLENDMODE_BLEND
 		);
-		
 		
 		this.draw_color();
 	}

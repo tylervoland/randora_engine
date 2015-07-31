@@ -11,5 +11,6 @@ package import randora_engine.object.property.log;
 package import randora_engine.object.property.loop;
 package import randora_engine.object.property.print;
 package import randora_engine.object.property.resize;
+package import randora_engine.object.property.start;
 package import randora_engine.object.property.sort;
 package import randora_engine.object.property.update;
