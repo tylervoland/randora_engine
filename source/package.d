@@ -1,3 +1,3 @@
 module source;
 
-package import randora_engine;
+package import randora;
