@@ -1,5 +1,5 @@
 {
-	"name": "Randora-Engine",
+	"name": "randora_engine",
 	"description": "Randora Engine.",
 	"copyright": "Copyright © 2015, Master Foo",
 	"authors": ["Master Foo"],
@@ -8,7 +8,7 @@
 	
 	"targetPath": "lib",
 	"targetType": "library",
-	"targetName": "Randora-Engine",
+	"targetName": "randora_engine",
 	"version": "0.0.1",
 	
 	"dependencies": {
