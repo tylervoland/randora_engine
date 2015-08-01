@@ -1,6 +1,6 @@
-module randora.engine.sdl.sdl;
+module randora.sdl.sdl;
 
-import randora.engine.sdl;
+import randora.sdl;
 class SDLSDL(Master) : RNDOwned!(Master){
 	SDLImage!(typeof(this))			image			= null;
 	SDLMixer!(typeof(this))			mixer			= null;

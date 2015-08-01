@@ -1,6 +1,6 @@
-module randora.engine.sdl.true_type_font.true_type_font;
+module randora.sdl.true_type_font.true_type_font;
 
-import randora.engine.sdl.true_type_font;
+import randora.sdl.true_type_font;
 class SDLTrueTypeFont(Master) : RNDOwned!(Master){
 	this(Master master){
 		super(master);

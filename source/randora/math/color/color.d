@@ -1,6 +1,6 @@
-module randora.engine.math.color.color;
+module randora.math.color.color;
 
-import randora.engine.math.color;
+import randora.math.color;
 class RNDColor(Master) : RNDOwned!(Master){
 	this(Master master){
 		super(master);

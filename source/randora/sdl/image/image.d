@@ -1,6 +1,6 @@
-module randora.engine.sdl.image.image;
+module randora.sdl.image.image;
 
-package import randora.engine.sdl.image;
+package import randora.sdl.image;
 class SDLImage(Master) : RNDOwned!(Master){
 	this(Master master){
 		super(master);

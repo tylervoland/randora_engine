@@ -4,5 +4,6 @@ package import randora.engine.resource;
 
 package import randora.engine.resource.base_texture.base_texture;
 
-public import randora.engine.math.color;
+package import randora.math.color;
+
 public import derelict.sdl2.sdl;

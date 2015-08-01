@@ -1,6 +1,6 @@
-module randora.engine.sdl.open_audio.open_audio;
+module randora.sdl.open_audio.open_audio;
 
-package import randora.engine.sdl.open_audio;
+package import randora.sdl.open_audio;
 class SDLOpenAudio(Master) : RNDOwned!(Master){
 	this(Master master){
 		super(master);

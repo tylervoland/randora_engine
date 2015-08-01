@@ -1,6 +1,6 @@
-module randora.engine.sdl.renderer.renderer;
+module randora.sdl.renderer.renderer;
 
-import randora.engine.sdl.renderer;
+import randora.sdl.renderer;
 class SDLRenderer(Master) : RNDOwned!(Master){
 	alias sdl_renderer this;
 	public SDL_Renderer* sdl_renderer = null;

@@ -1,6 +1,6 @@
-module randora.engine.sdl.mixer.mixer;
+module randora.sdl.mixer.mixer;
 
-package import randora.engine.sdl.mixer;
+package import randora.sdl.mixer;
 class SDLMixer(Master) : RNDOwned!(Master){
 	this(Master master){
 		super(master);
