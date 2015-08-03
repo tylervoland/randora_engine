@@ -40,7 +40,9 @@ module randora.engine.object.object;
 import randora.engine.object;
 
 class RNDObject{
+	/+++Events+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++/
 	mixin RNDClean;
+	mixin RNDClear;
 	mixin RNDDraw;
 	mixin RNDEvent;
 	mixin RNDInit;
@@ -54,16 +56,27 @@ class RNDObject{
 	mixin RNDStart;
 	mixin RNDUpdate;
 	
-	string type = "RNDObject";
-	string name = "object";
+	RNDObject[] members = null;
 	
-	RNDObject members[] = null;
+	string type = "";
+	
+	@property{
+		private string _name = "";
+		public ref string name(){ return this._name; }
+		public const(char)* const_char_name(){
+			import std.string;
+			return std.string.toStringz(this.name);
+		}
+	}
 	
 	/+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 	 + this does this.
 	 + Returns: void
 	+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++/
-	this(){}
+	this(){
+		this.type = "RNDObject";
+		this.name = "object";
+	}
 	
 	void add_member(RNDObject member){
 		this.members ~= member;

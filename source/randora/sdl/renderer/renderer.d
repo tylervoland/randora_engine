@@ -2,43 +2,26 @@ module randora.sdl.renderer.renderer;
 
 import randora.sdl.renderer;
 class SDLRenderer(Master) : RNDOwned!(Master){
-	alias sdl_renderer this;
-	public SDL_Renderer* sdl_renderer = null;
+	/+++Events+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++/
+	import randora.sdl.renderer.events;
+	mixin Clear;
+	mixin Init;
+	mixin Render;
+	mixin Start;
 	
-	public uint	flags	=  0;
-	public int	index	= -1;
+	/+++Properties+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++/
+	import randora.sdl.renderer.properties;
+	mixin Flags;
+	mixin Index;
+	mixin SDLRenderer;
 	
 	this(Master master){
 		super(master);
-		this.flags |= SDL_RENDERER_ACCELERATED;
-		this.flags |= SDL_RENDERER_PRESENTVSYNC;
-	}
-	
-	override void on_start(){
-		super.on_start();
 		
-		this.sdl_renderer = SDL_CreateRenderer(this.master, index, flags);
-		assert(this.sdl_renderer !is null);//SDL_GetError()
-	}
-	
-	override void on_init(){
-		super.on_init();
-		
-		SDL_SetRenderDrawBlendMode(
-			this.sdl_renderer,
-			SDL_BLENDMODE_BLEND
-		);
-		
-		this.draw_color();
-	}
-	
-	void clear(){
-		SDL_RenderClear(this.sdl_renderer);
-	}
-	
-	override void on_render(){
-		super.on_render();
-		SDL_RenderPresent(this.sdl_renderer);
+		//this.flags |= SDL_RENDERER_SOFTWARE;		//the renderer is a software fallback
+		this.flags |= SDL_RENDERER_ACCELERATED;		//the renderer uses hardware acceleration
+		this.flags |= SDL_RENDERER_PRESENTVSYNC;	//present is synchronized with the refresh rate
+		//this.flags |= SDL_RENDERER_TARGETTEXTURE;	//the renderer supports rendering to texture
 	}
 	
 	void draw_color(ubyte c1 = 0xFF, ubyte c2 = 0xFF, ubyte c3 = 0xFF, ubyte c4 = 0xFF){

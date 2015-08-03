@@ -2,102 +2,32 @@ module randora.engine.container.container;
 
 import randora.engine.container;
 class RNDContainer(Master, ObjectType) : RNDWidget!(Master){
-	public RNDWidget!(ObjectType)[] slaves = null;
+	/+++Events+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++/
+	import randora.engine.container.events;
+	mixin Clean;
+	mixin Clear;
+	mixin Draw;
+	mixin Event;
+	mixin Init;
+	mixin Load;
+	mixin Log;
+	mixin Loop;
+	mixin Print;
+	mixin Render;
+	mixin Resize;
+	mixin Sort;
+	mixin Start;
+	mixin Update;
 	
-	this(Master master){
-		super(master);
-	}
+	/+++Properties+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++/
+	public RNDWidget!(ObjectType)[] slaves = null;
 	
 	void add_slave(RNDWidget!(ObjectType) slave){
 		slave.z_index = this.slaves.length;
 		this.slaves ~= slave;
 	}
 	
-	override void on_clean(){
-		super.on_clean();
-		foreach(int i, RNDWidget!(ObjectType) slave; this.slaves){
-			slave.clean();
-		}
-	}
-	
-	override void on_draw(){
-		super.on_draw();
-		foreach(int i, RNDWidget!(ObjectType) slave; this.slaves){
-			slave.draw();
-		}
-	}
-	
-	override void on_event(){
-		super.on_event();
-		foreach(int i, RNDWidget!(ObjectType) slave; this.slaves){
-			slave.event();
-		}
-	}
-	
-	override void on_init(){
-		super.on_init();
-		foreach(int i, RNDWidget!(ObjectType) slave; this.slaves){
-			slave.init();
-		}
-	}
-	
-	override void on_load(){
-		super.on_load();
-		foreach(int i, RNDWidget!(ObjectType) slave; this.slaves){
-			slave.load();
-		}
-	}
-	
-	override void on_loop(){
-		super.on_loop();
-		foreach(int i, RNDWidget!(ObjectType) slave; this.slaves){
-			slave.loop();
-		}
-	}
-	
-	override void on_render(){
-		super.on_sort();
-		if(this.slaves !is null){
-			foreach(int i, RNDWidget!(ObjectType) slave; this.slaves){
-				slave.render();
-			}
-		}
-	}
-	
-	override void on_sort(){
-		super.on_sort();
-		if(this.slaves !is null){
-			foreach(int i, RNDWidget!(ObjectType) slave; this.slaves){
-				slave.sort();
-			}
-		}
-	}
-	
-	override void on_start(){
-		super.on_sort();
-		if(this.slaves !is null){
-			foreach(int i, RNDWidget!(ObjectType) slave; this.slaves){
-				slave.start();
-			}
-		}
-	}
-	
-	override void on_update(){
-		super.on_update();
-		if(this.slaves !is null){
-			foreach(int i, RNDWidget!(ObjectType) slave; this.slaves){
-				slave.update();
-			}
-		}
-	}
-	
-	override string on_print(int level = 0){
-		string s;
-		foreach(int i, RNDWidget!(ObjectType) slave; this.slaves){
-			s ~= slave.print(level);
-			s ~= ",\n";
-		}
-		s ~= super.on_print(level);
-		return s;
+	this(Master master){
+		super(master);
 	}
 }

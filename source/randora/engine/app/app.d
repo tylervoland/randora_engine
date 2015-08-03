@@ -15,28 +15,10 @@ class RNDApp(Master, AppType) : RNDContainer!(Master, AppType){
 		assert(this.sdl !is null);
 	}
 	
-	override void on_init(){
-		this.sdl.init();
-		super.on_init();
-	}
-	
-	override void on_load(){
-		super.on_load();
-		this.sdl.load();
-	}
-	
-	override void pre_start(){
-		super.pre_start();
-		this.sdl.start();
-	}
-	
-	override void post_start(){
-		super.post_start();
-		this.init();
-		this.update();
-		this.load();
-		this.update();
-	}
+	import randora.engine.app.events;
+	mixin Init;
+	mixin Load;
+	mixin Start;
 	
 	void game_loop(){
 		while(!quit){
